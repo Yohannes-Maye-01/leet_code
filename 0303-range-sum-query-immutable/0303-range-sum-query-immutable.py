@@ -5,7 +5,7 @@ class NumArray:
         self.dp = [nums[0]]
         for i in range(1, len(nums)):
             self.dp.append(self.dp[-1] + nums[i])
-            # sum from 0 to n = n + (sum from 0 to n-1)
+        
         
 
     def sumRange(self, left: int, right: int) -> int:
