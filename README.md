@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0283-move-zeroes) |
+| [1755-defuse-the-bomb](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1755-defuse-the-bomb) |
 | [2093-check-if-string-is-a-prefix-of-array](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2093-check-if-string-is-a-prefix-of-array) |
 ## Two Pointers
 |  |
@@ -27,4 +28,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+## Sliding Window
+|  |
+| ------- |
+| [1755-defuse-the-bomb](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1755-defuse-the-bomb) |
 <!---LeetCode Topics End-->
