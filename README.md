@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0680-valid-palindrome-ii) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2093-check-if-string-is-a-prefix-of-array](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2093-check-if-string-is-a-prefix-of-array) |
 ## Greedy
 |  |
@@ -37,13 +38,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Trie
 |  |
 | ------- |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 <!---LeetCode Topics End-->
