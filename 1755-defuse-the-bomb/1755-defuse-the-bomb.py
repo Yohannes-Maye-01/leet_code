@@ -1,31 +1,31 @@
-class Solution:
-    def decrypt(self, code: List[int], k: int) -> List[int]:
-        a = 1
-        if k > 0:
-            a*=1
-            l = code[:k]
-            s = code+l
-        else:
-            a*=-1
-            l = code[k:]
-            k*=-1
-            s = l+code
-        print(s)
-        res = []
-        cul = []
-        for i in range(k):
-            cul.append(s[i])
-        res.append(sum(cul))
-        if not cul:
-            return [0]*len(code)
-        for i in range(k,len(s)):
-            cul.pop(0)
-            cul.append(s[i])
-            if len(cul)==k:
-                res.append(sum(cul))
-        if a==1:
-            return res[1:]
-        return res[:-1]
+# class Solution:
+#     def decrypt(self, code: List[int], k: int) -> List[int]:
+#         a = 1
+#         if k > 0:
+#             a*=1
+#             l = code[:k]
+#             s = code+l
+#         else:
+#             a*=-1
+#             l = code[k:]
+#             k*=-1
+#             s = l+code
+#         print(s)
+#         res = []
+#         cul = []
+#         for i in range(k):
+#             cul.append(s[i])
+#         res.append(sum(cul))
+#         if not cul:
+#             return [0]*len(code)
+#         for i in range(k,len(s)):
+#             cul.pop(0)
+#             cul.append(s[i])
+#             if len(cul)==k:
+#                 res.append(sum(cul))
+#         if a==1:
+#             return res[1:]
+#         return res[:-1]
 
             
 
@@ -50,4 +50,17 @@ class Solution:
 #             ans[-l]=wsum
 #         return ans
         
-        
+class Solution:
+    def decrypt(self, code: List[int], k: int) -> List[int]:
+        n = len(code)
+        if k == 0:
+            return [0] * n
+
+        ans = []
+        nums = code + code + code
+        for i in range(n, n + n):
+            if k > 0:
+                ans.append(sum(nums[i + 1 : i + k + 1]))
+            else:
+                ans.append(sum(nums[i + k : i]))
+        return ans        
