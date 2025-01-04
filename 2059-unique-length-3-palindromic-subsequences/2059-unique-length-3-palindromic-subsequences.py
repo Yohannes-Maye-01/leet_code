@@ -30,6 +30,7 @@
 #             if j > i + 1:  # Ensure there's at least one element between
 #                 res += len(set(s[i+1:j]))  # Count unique middle elements
 #         return res
+
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         from collections import defaultdict
