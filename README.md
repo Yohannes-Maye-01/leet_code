@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0283-move-zeroes) |
+| [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
 | [1755-defuse-the-bomb](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1755-defuse-the-bomb) |
 | [2093-check-if-string-is-a-prefix-of-array](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2093-check-if-string-is-a-prefix-of-array) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Bit Manipulation
@@ -53,4 +55,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Math
+|  |
+| ------- |
+| [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
+## Counting
+|  |
+| ------- |
+| [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
 <!---LeetCode Topics End-->
