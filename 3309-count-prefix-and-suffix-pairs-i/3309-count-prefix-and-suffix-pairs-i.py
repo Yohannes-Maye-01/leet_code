@@ -15,32 +15,32 @@
 
 
 
-class Solution:
-    def isPrefixAndSuffix(self, str1: str, str2: str) -> bool:
-        n1, n2 = len(str1), len(str2)
-        if n1 > n2:
-            return False
-        return str2[:n1] == str1 and str2[-n1:] == str1
-
-    def countPrefixSuffixPairs(self, words: List[str]) -> int:
-        n = len(words)
-        count = 0
-        for i in range(n):
-            for j in range(i + 1, n):
-                if self.isPrefixAndSuffix(words[i], words[j]):
-                    count += 1
-        return count
-
-
-
-
 # class Solution:
-#     def countPrefixSuffixPairs(self, words: List[str], ans = 0) -> int:
+#     def isPrefixAndSuffix(self, str1: str, str2: str) -> bool:
+#         n1, n2 = len(str1), len(str2)
+#         if n1 > n2:
+#             return False
+#         return str2[:n1] == str1 and str2[-n1:] == str1
 
-#         for pre_suf, word in combinations(words,2):
-#             ans+= word.startswith(pre_suf) and word.endswith(pre_suf)
+#     def countPrefixSuffixPairs(self, words: List[str]) -> int:
+#         n = len(words)
+#         count = 0
+#         for i in range(n):
+#             for j in range(i + 1, n):
+#                 if self.isPrefixAndSuffix(words[i], words[j]):
+#                     count += 1
+#         return count
 
-#         return  ans 
+
+
+
+class Solution:
+    def countPrefixSuffixPairs(self, words: List[str], ans = 0) -> int:
+
+        for pre_suf, word in combinations(words,2):
+            ans+= word.startswith(pre_suf) and word.endswith(pre_suf)
+
+        return  ans 
 
 
 
