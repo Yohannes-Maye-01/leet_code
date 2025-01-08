@@ -34,41 +34,33 @@
 
 
 
-class Solution:
-    def countPrefixSuffixPairs(self, words: List[str], ans = 0) -> int:
-
-        for pre_suf, word in combinations(words,2):
-            ans+= word.startswith(pre_suf) and word.endswith(pre_suf)
-
-        return  ans 
-
-
-
-
-
-
 # class Solution:
 #     def countPrefixSuffixPairs(self, words: List[str], ans = 0) -> int:
 
 #         for pre_suf, word in combinations(words,2):
 #             ans+= word.startswith(pre_suf) and word.endswith(pre_suf)
 
-#         return  ans  
+#         return  ans 
 
 
 
-# class Solution:
-#     def countPrefixSuffixPairs(self, words: List[str]) -> int:
-#         n = len(words)
-#         ans = 0
-#         for i in range(n):
-#             s1 = words[i]
-#             for j in range(i + 1, n):
-#                 s2 = words[j]
-#                 if len(s2) < len(s1):
-#                     continue
-#                 pre = s2[:len(s1)]
-#                 suf = s2[-len(s1):]
-#                 if pre == s1 and suf == s1:
-#                     ans += 1
-#         return ans        
+
+
+
+
+
+class Solution:
+    def countPrefixSuffixPairs(self, words: List[str]) -> int:
+        n = len(words)
+        ans = 0
+        for i in range(n):
+            s1 = words[i]
+            for j in range(i + 1, n):
+                s2 = words[j]
+                if len(s2) < len(s1):
+                    continue
+                pre = s2[:len(s1)]
+                suf = s2[-len(s1):]
+                if pre == s1 and suf == s1:
+                    ans += 1
+        return ans        
