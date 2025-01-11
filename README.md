@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0680-valid-palindrome-ii) |
 | [0782-jewels-and-stones](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0782-jewels-and-stones) |
+| [1502-construct-k-palindrome-strings](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1502-construct-k-palindrome-strings) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2093-check-if-string-is-a-prefix-of-array](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2093-check-if-string-is-a-prefix-of-array) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0680-valid-palindrome-ii) |
+| [1502-construct-k-palindrome-strings](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1502-construct-k-palindrome-strings) |
 ## String Matching
 |  |
 | ------- |
@@ -45,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0782-jewels-and-stones](https://github.com/Yohannes-Maye-01/leet_code/tree/master/0782-jewels-and-stones) |
+| [1502-construct-k-palindrome-strings](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1502-construct-k-palindrome-strings) |
 | [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Yohannes-Maye-01/leet_code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Yohannes-Maye-01/leet_code/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -71,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1502-construct-k-palindrome-strings](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1502-construct-k-palindrome-strings) |
 | [1635-number-of-good-pairs](https://github.com/Yohannes-Maye-01/leet_code/tree/master/1635-number-of-good-pairs) |
 ## Rolling Hash
 |  |
